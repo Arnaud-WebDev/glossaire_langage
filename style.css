@@ -24,6 +24,7 @@ body {
 .title_h1 {
   text-decoration: underline solid 3px teal;
   margin: 20px;
+  text-align: center;
 }
 
 .title_h2 {
