@@ -127,7 +127,6 @@ nav > ul li:hover .sous {
 /* TABLEAU */
 table {
   border-collapse: collapse;
-  width: 99%;
   margin: 10px;
 }
 td,
