@@ -141,12 +141,12 @@ td,
 th {
   border: 2px solid black;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
-.termes {
+/* .termes {
   width: 15%;
-}
+} */
 
 td a {
   color: blue;
@@ -159,3 +159,14 @@ td a {
   max-width: 100%;
 }
 /* FIN IMAGES */
+
+@media (max-width: 445px) {
+  td {
+    word-break: break-word;
+    font-size: 0.8rem;
+  }
+  th {
+    /* word-break: break-all; */
+    font-size: 0.8rem;
+  }
+}
