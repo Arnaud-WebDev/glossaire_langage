@@ -8,6 +8,12 @@
 }
 body {
   background-color: rgba(34, 59, 58, 0.205);
+  height: 880px;
+}
+
+.p_center {
+  text-align: center;
+  padding: 10px;
 }
 
 .center {
@@ -147,3 +153,9 @@ td a {
 }
 
 /* FIN TABLEAU */
+
+/* IMAGES */
+.image {
+  max-width: 100%;
+}
+/* FIN IMAGES */
