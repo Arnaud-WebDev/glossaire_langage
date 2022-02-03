@@ -23,6 +23,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+code {
+  border: 1px solid black;
+  background-color: teal;
+  padding: 1px;
+}
 /* FIN DU CORPS DE LA PAGE */
 
 /* LES TITRES */
