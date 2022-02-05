@@ -34,7 +34,7 @@
 
       <thead>
         <tr>
-          <th>Termes</th>
+          <th class="termes">Termes</th>
           <th>Définitions</th>
           <th>Exemples</th>
         </tr>
@@ -52,9 +52,7 @@
 
         <tr>
           <td class="termes">Constante (const)</td>
-          <td>
-            Une constante est comme une boîte dont le contenu ne peut pas changer au fur et à mesure de notre programme. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nulla?
-          </td>
+          <td>Une constante est comme une boîte dont le contenu ne peut pas changer au fur et à mesure de notre programme.</td>
           <td>
             Explication de<a href="https://www.youtube.com/watch?v=dqnXG0Ik6Ls&t=627s" target="_blank"> We Form You</a> et de
             <a href="https://www.youtube.com/watch?v=9OJLxDxyNg4&t=5005s">FromScratch</a> sur les constantes. Ainsi que quelques exemples de <a href="#">constantes</a>.
@@ -62,7 +60,7 @@
         </tr>
 
         <tr>
-          <td class="termes">Fonction (function)</td>
+          <td class="termes">Fonction (function())</td>
           <td>C'est une portion de code qui peut être appelée par d'autres codes, par elle-même ou bien appelée par une variable qui se réfère à la fonction.</td>
           <td>
             Explication de<a href="https://www.youtube.com/watch?v=dqnXG0Ik6Ls&t=627s" target="_blank"> We Form You</a> et de
@@ -73,13 +71,15 @@
     </table>
     <br />
 
+    <h2 class="title_h2">Les boucles</h2>
+
     <table>
       <caption>
         Les boucles (for, while, do...while, for...in, for...of)
       </caption>
       <thead>
         <tr>
-          <th>Les boucles</th>
+          <th class="termes">Les boucles</th>
           <th>Définitions</th>
           <th>Exemples</th>
         </tr>
@@ -87,7 +87,7 @@
 
       <tbody>
         <tr>
-          <td>for() = pour</td>
+          <td class="termes">for() = pour</td>
           <td>
             La boucle <code>for()</code> utilise une syntaxe relativement condensée et est relativement puissante, ce qui en fait la condition la plus utilisée en JavaScript.Une boucle
             <code>for()</code> contient trois "phases" à l'intérieur des parenthèses : une phase d'initialisation, une phase de test (condition de sortie) et une phase d'itération (généralement une
@@ -103,32 +103,148 @@
           </td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
+          <td class="termes">while (tandis que)</td>
           <td></td>
           <td></td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
+          <td class="termes">do...while (faire...tant que)</td>
           <td></td>
           <td></td>
         </tr>
         <tr>
+          <td class="termes">for...in</td>
           <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="termes">for...of</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="termes"></td>
           <td></td>
           <td></td>
         </tr>
       </tbody>
     </table>
+
+    <h2 class="title_h2">Les méthodes</h2>
+
+    <table>
+      <caption>
+        Les différentes méthodes
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Methods</th>
+          <th>Définitions</th>
+          <th>Exemples</th>
+        </tr>
+      </thead>
+
+      <tr>
+        <td>.find()</td>
+        <td>Permet de chercher un élément sur un tableau par rapport à une condition</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <h2 class="title_h2">Opérateurs d'affectation</h2>
+
+    <p class="p_center">Les opérateurs d'affectation vont nous permettre, comme leur nom l'indique, d'affecter une certaine valeur à une variable</p>
+    <br />
+    <p class="p_center">
+      On connait déjà le plus utilisé qui est le signe "=". Cependant il existe également des opérateurs "combinés" qui vont effectuer une opération d'un certain type (comme une opération arithmétique
+      par exemple) et affecter en même temps.
+    </p>
+
+    <table>
+      <caption>
+        Tableau sur les opérateurs d'affectations
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Opérateurs</th>
+          <th>Définitions</th>
+          <th>Exemples</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="termes">+=</td>
+          <td>Additionne puis affecte le résultat</td>
+          <td>
+            <a href="./images/javascript-operateur-affectation-assignation-combine.png" target="_blank">
+              <img src="./images/javascript-operateur-affectation-assignation-combine.png" alt="Opérateur d'affectation" class="image"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="termes">-=</td>
+          <td>Soustrait puis affecte le résultat</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="termes">*=</td>
+          <td>Multiplie puis affecte le résultat</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="termes">/=</td>
+          <td>Divise puis affecte le résultat</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="termes">%=</td>
+          <td>Calcule le modulo puis affecte le résultat</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h2 class="title_h2">Le local storage</h2>
+
+    <table>
+      <caption>
+        Tableau sur le local storage
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Termes</th>
+          <th>Définitions</th>
+          <th>Exemples</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>localStorage.setItem()</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 class="title_h2">Les outils JavaScript</h2>
 
     <table>
       <caption>
@@ -187,65 +303,6 @@
             permet également d'écrire son propre modules à partager avec la communauté JavaScript.
           </td>
           <td>Plus d'infos sur le site <a href="https://openclassrooms.com/fr/courses/5543061-ecrivez-du-javascript-pour-le-web/5577726-optimisez-votre-code" target="_blank">d'Openclassrooms</a>.</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2 class="title_h1">Opérateurs d'affectation</h2>
-
-    <p class="p_center">Les opérateurs d'affectation vont nous permettre, comme leur nom l'indique, d'affecter une certaine valeur à une variable</p>
-    <br />
-    <p class="p_center">
-      On connait déjà le plus utilisé qui est le signe "=". Cependant il existe également des opérateurs "combinés" qui vont effectuer une opération d'un certain type (comme une opération arithmétique
-      par exemple) et affecter en même temps.
-    </p>
-
-    <table>
-      <caption>
-        Tableau sur les opérateurs d'affectations
-      </caption>
-
-      <thead>
-        <tr>
-          <th>Opérateurs</th>
-          <th>Définitions</th>
-          <th>Exemples</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td class="termes">+=</td>
-          <td>Additionne puis affecte le résultat</td>
-          <td>
-            <a href="./images/javascript-operateur-affectation-assignation-combine.png" target="_blank">
-              <img src="./images/javascript-operateur-affectation-assignation-combine.png" alt="Opérateur d'affectation" class="image"
-            /></a>
-          </td>
-        </tr>
-
-        <tr>
-          <td class="termes">-=</td>
-          <td>Soustrait puis affecte le résultat</td>
-          <td>Lorem ipsum dolor sit amet</td>
-        </tr>
-
-        <tr>
-          <td class="termes">*=</td>
-          <td>Multiplie puis affecte le résultat</td>
-          <td></td>
-        </tr>
-
-        <tr>
-          <td class="termes">/=</td>
-          <td>Divise puis affecte le résultat</td>
-          <td></td>
-        </tr>
-
-        <tr>
-          <td class="termes">%=</td>
-          <td>Calcule le modulo puis affecte le résultat</td>
-          <td></td>
         </tr>
       </tbody>
     </table>

@@ -41,6 +41,8 @@ code {
 .title_h2 {
   margin: 20px;
   text-decoration: underline solid 3px teal;
+  text-align: center;
+  font-size: 1.9rem;
 }
 
 /* FIN LES TITRES */
@@ -150,9 +152,9 @@ th {
   padding: 15px;
 }
 
-/* .termes {
-  width: 15%;
-} */
+.termes {
+  width: 10%;
+}
 
 td a {
   color: blue;
