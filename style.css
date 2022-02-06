@@ -137,14 +137,17 @@ nav > ul li:hover .sous {
 /* FIN Menu Déroulant Pierre Giraud */
 
 /* TABLEAU */
+
 caption {
   padding: 20px;
   font-size: 1.4rem;
 }
+
 table {
   border-collapse: collapse;
   margin: 10px;
 }
+
 td,
 th {
   border: 2px solid black;
@@ -154,6 +157,15 @@ th {
 
 .termes {
   width: 10%;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.comment {
+  color: green;
+  font-weight: bold;
 }
 
 td a {

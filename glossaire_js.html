@@ -151,14 +151,29 @@
         <td></td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>.map()</td>
+        <td>Permet de mapper une fonction à chaque éléments d'un tableau. On peut utiliser <code>map(<em>Number</em>)</code> pour convertir chaque élément d'un tableau en nombre.</td>
+        <td>
+          <a href="./images/map().png" target="_blank"><img src="./images/map().png" alt="map()" /></a>
+          <p>Ce qui nous donne dans la console :</p>
+          <a href="./images/console_map().png" target="_blank"><img src="./images/console_map().png" alt="photo de la console de la méthode map()" /></a>
+        </td>
       </tr>
+
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>JSON.stringify()</td>
+        <td>Permet de transformer quelque de complexe, comme un tableau ou un objet en chaîne de caractères.</td>
+        <td>
+          <a href="./images/JSON_stringify.png" target="_blank"> <img src="./images/JSON_stringify.png" alt="JSON.stringify" class="image" /></a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>JSON.parse()</td>
+        <td>Permet de transformer la chaîne de caractères en données complexe, comme un tableau ou un objet</td>
+        <td>
+          <a href="./images/JSON_parse.png" target="_blank"><img src="./images/JSON_parse.png" alt="JSON.parse" class="image" /></a>
+        </td>
       </tr>
     </table>
 
@@ -222,6 +237,12 @@
     </table>
     <h2 class="title_h2">Le local storage</h2>
 
+    <p>
+      Le local storage permet de stocker sur son navigateur des informations, un peu comme les cookies, sauf que l'espace de stockage est plus gros (10mo). Les informations sont stockées a vie sur le
+      navigateurs, ça permet par exemple de stocker les informations d'un panier sur un site de e-commerce. Quand on quitte le site et que l'on revient les informations sont toujours là, voilà a quoi
+      sert le localStorage. Contrairement au sessionStorage ou les informations sont toujours là le temps que l'on est sur le site mais disparaît une fois celui-ci quitté.
+    </p>
+
     <table>
       <caption>
         Tableau sur le local storage
@@ -238,7 +259,13 @@
       <tbody>
         <tr>
           <td>localStorage.setItem()</td>
+          <td>La syntaxe localStorage.setItem() permet de stocker une donnée</td>
           <td></td>
+        </tr>
+
+        <tr>
+          <td>localStorage.getItem()</td>
+          <td>La syntaxe localStorage.getItem() permet de récupérer une donnée</td>
           <td></td>
         </tr>
       </tbody>
