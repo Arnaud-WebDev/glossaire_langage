@@ -180,6 +180,10 @@ td a {
 }
 /* FIN IMAGES */
 
+.javascript:hover {
+  border: 2px solid black;
+}
+
 @media (max-width: 445px) {
   td {
     word-break: break-word;
