@@ -42,7 +42,18 @@ for (let passenger of passengers) {
  */
 
 const array1 = [1, 2, 3, 4];
-console.log(array1);
+//console.log(array1);
 const totalArray1 = array1.reduce((previousValue, currentValue) => previousValue + currentValue);
 //totalArray1 = 1 + 2 + 3 + 4 = 10
-console.log(totalArray1);
+//console.log(totalArray1);
+
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// inserts at index 1
+console.log(months);
+// expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+months.splice(4, 1, 'May');
+// replaces 1 element at index 4
+console.log(months);
+// expected output: Array ["Jan", "Feb", "March", "April", "May"]

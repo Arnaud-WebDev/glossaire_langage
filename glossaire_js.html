@@ -114,18 +114,31 @@
         </tr>
         <tr>
           <td class="termes">for...in</td>
-          <td></td>
-          <td></td>
+          <td>
+            Permet d'itérer facilement à travers un objet, dans l'exemple suivant chaque propriété est bien détaillé dans le console.log(). Si on avait juste fait un console.log(<span class="yellow"
+              >`${</span
+            >
+            <span class="blue">prop</span> <span class="yellow">}`</span> ) on aurait juste eu la couleur, portes et le prix.
+          </td>
+          <td>
+            <a href="./images/for_in.png" target="_blank"><img src="./images/for_in.png" alt="La boucle for...in" class="image" /></a>
+            <p>Résultat dans le console.log()</p>
+            <a href="./images/for_in_console.png" target="_blank"><img src="./images/for_in_console.png" alt="La boucle for...in" class="image" /></a>
+          </td>
         </tr>
         <tr>
           <td class="termes">for...of</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="termes"></td>
-          <td></td>
-          <td></td>
+          <td>Permet d'itérer facilement à travers une chaîne de caractère ou un tableau.</td>
+          <td>
+            <p>Exemple 1 : on itère dans une chaîne de caractère</p>
+            <a href="./images/for_of.png" target="_blank"> <img src="./images/for_of.png" alt="La boucle for...of" class="image" /></a>
+            <p>Résultat dans la console :</p>
+            <a href="./images/for_of_console.png" target="_blank"> <img src="./images/for_of_console.png" alt="La boucle for...of" class="image" /></a>
+            <p>Exemple 2 : on itère dans un tableau</p>
+            <a href="./images/for_of2.png" target="_blank"> <img src="./images/for_of2.png" alt="La boucle for...of" class="image" /></a>
+            <p>Résultat dans la console :</p>
+            <a href="./images/for_of2_console.png" target="_blank"> <img src="./images/for_of2_console.png" alt="La boucle for...of" class="image" /></a>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -144,6 +157,20 @@
           <th>Exemples</th>
         </tr>
       </thead>
+
+      <tr>
+        <td>splice()</td>
+        <td>
+          La méthode splice() modifie le contenu d'un tableau en retirant des éléments et/ou en ajoutant de nouveaux éléments à même le tableau. On peut ainsi vider ou remplacer une partie d'un
+          tableau. Dans l'exemple ci-contre on commence avec un tableau avec des mois de l'année mais qui n'est pas complet. Le premier "splice()" va nous permettre de cibler l'index et d'y rajouter
+          le mois de Fevrier. Une fois cela fait on réutilise la même méthode mais en ciblant un index différent pour le supprimer cette fois-ci et pour le remplacer par un autre mois. Le "0" permet
+          de placer un élément et le "1" permet de le supprimer
+        </td>
+        <td>
+          <a href="./images/splice().png" target="_blank"><img src="./images/splice().png" alt="La méthode splice()" class="image" /></a>
+          <a href="./images/console_splice().png" target="_blank"><img src="./images/console_splice().png" alt="Console de la méthode splice()" class="image" /></a>
+        </td>
+      </tr>
 
       <tr>
         <td>.find()</td>

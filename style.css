@@ -29,6 +29,14 @@ code {
   background-color: teal;
   padding: 1px;
 }
+
+.blue {
+  color: blue;
+}
+
+.yellow{
+  color: rgb(131, 131, 28);
+}
 /* FIN DU CORPS DE LA PAGE */
 
 /* LES TITRES */
