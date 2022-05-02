@@ -14,5 +14,61 @@
       Définition de SGBD = Système de Gestion de Bases de Données. Le SGBD est le logiciel qui va permettre de manipuler les données d’une base. C’est ce logiciel qui commande les interactions avec la
       base pour y récupérer, ajouter, modifier ou supprimer des données.
     </p>
+
+    <table>
+      <caption>
+        Les différentes commande MYSQL
+      </caption>
+      <thead>
+        <tr>
+          <th>Ligne de commande</th>
+          <th>Définitions</th>
+          <th>Exemples</th>
+        </tr>
+      </thead>
+
+      <tr>
+        <td>CREATE DATABASE "nom de la database";</td>
+        <td>
+          Cette commande permet de créer une DATABASE dans MYSQL. Le nom de la DATABASE sera toujours en minuscule. Ne pas oublier le point-virgule <code>";"</code> à la fin de chaque commande.C’est
+          une obligation pour signaler à SQL qu’on a terminé une instruction.
+        </td>
+        <td>
+          <a href="./images/MYSQL/create_database.png" target="_blank">
+            <img src="./images/MYSQL/create_database.png" alt="Création d'une DATABASE MYSQL" />
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>SHOW DATABASES;</td>
+        <td>Permet de voir toutes les bases de données créées</td>
+        <td>
+          <a href="./images/MYSQL/show_database.png" target="_blank">
+            <img src="./images/MYSQL/show_database.png" alt="Visualisation des DATABASES MYSQL" />
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>DROP DATABASES;</td>
+        <td>Permet de supprimer la DATABASE selectionnées</td>
+        <td>
+          <a href="./images/MYSQL/drop_database.png" target="_blank">
+            <img src="./images/MYSQL/drop_database.png" alt="Suppression de la DATABASES MYSQL" />
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>USE "nom de la database";</td>
+        <td>Permet de sélectionner la base de données que l'on crée</td>
+        <td>
+          <a href="./images/MYSQL/use_database.png" target="_blank">
+            <img src="./images/MYSQL/use_database.png" alt="Visualisation des DATABASES MYSQL" />
+          </a>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
