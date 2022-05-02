@@ -79,6 +79,44 @@
       </tr>
 
       <tr>
+        <td>CREATE TABLE "nom de la table";</td>
+        <td>
+          <p>
+            Permet créer une table qui va être composé de plusieurs caractéristiques, aussi appelées champs.Chacun de ces champs doit avoir un type, pour que MySQL comprenne à quoi “va ressembler” la
+            donnée qui sera stockée dans ce champ. Par exemple, est-ce que le champ contiendra du texte, des chiffres, etc...
+          </p>
+          <br />
+          <ol>
+            <li>id : Champ spécial obligatoire dans toutes les tables. Indique à MySQL que ce champ sera l'identifiant permettant d'identifier les objets.</li>
+            <li>INTEGER (type) : Champ numérique sous forme de nombre entier.</li>
+            <li>NOT NULL (option) : Ce champ ne peut pas être nul.</li>
+            <li>
+              AUTO_INCREMENT (option) : Ce champ sera créé par MySQL automatiquement, pas besoin de s'en soucier ! MySQL va utiliser l'id précédent et y ajouter +1 lors de l'ajout d'un nouvel objet.
+            </li>
+            <li>nom VARCHAR(100) (type) : Champ sous forme de texte, limité à 100 caractères.</li>
+            <li>prenom VARCHAR(100) (type) : Champ sous forme de texte, limité à 100 caractères.</li>
+            <li>email VARCHAR(255) (type) : Champ sous forme de texte, limité à 255 caractères.</li>
+            <li>UNIQUE (option) : Ce champ ne peut pas avoir la même valeur en double.</li>
+          </ol>
+        </td>
+        <td>
+          <a href="./images/MYSQL/create_table.png" target="_blank">
+            <img src="./images/MYSQL/create_table.png" alt="Création des tables dans MYSQL" />
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>SHOW tables;</td>
+        <td>Permet de voir toutes les tables créées précédemment, ici "aliment" et "utilisateur"</td>
+        <td>
+          <a href="./images/MYSQL/show_tables.png" target="_blank">
+            <img src="./images/MYSQL/show_tables.png" alt="Visualisation des tables dans MYSQL" />
+          </a>
+        </td>
+      </tr>
+
+      <tr>
         <td>USE "nom de la database";</td>
         <td>Permet de sélectionner la base de données que l'on crée</td>
         <td>
