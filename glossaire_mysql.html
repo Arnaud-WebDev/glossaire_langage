@@ -53,7 +53,7 @@
         </td>
         <td>
           <a href="./images/MYSQL/create_database.png" target="_blank">
-            <img src="./images/MYSQL/create_database.png" alt="Création d'une DATABASE MYSQL" />
+            <img src="./images/MYSQL/create_database.png" alt="Création d'une DATABASE MYSQL" class="image" />
           </a>
         </td>
       </tr>
@@ -63,7 +63,7 @@
         <td>Permet de voir toutes les bases de données créées</td>
         <td>
           <a href="./images/MYSQL/show_database.png" target="_blank">
-            <img src="./images/MYSQL/show_database.png" alt="Visualisation des DATABASES MYSQL" />
+            <img src="./images/MYSQL/show_database.png" alt="Visualisation des DATABASES MYSQL" class="image" />
           </a>
         </td>
       </tr>
@@ -73,7 +73,7 @@
         <td>Permet de supprimer la DATABASE selectionnées</td>
         <td>
           <a href="./images/MYSQL/drop_database.png" target="_blank">
-            <img src="./images/MYSQL/drop_database.png" alt="Suppression de la DATABASES MYSQL" />
+            <img src="./images/MYSQL/drop_database.png" alt="Suppression de la DATABASES MYSQL" class="image" />
           </a>
         </td>
       </tr>
@@ -83,7 +83,7 @@
         <td>Permet de sélectionner la base de données que l'on a crée</td>
         <td>
           <a href="./images/MYSQL/use_database.png" target="_blank">
-            <img src="./images/MYSQL/use_database.png" alt="Visualisation des DATABASES MYSQL" />
+            <img src="./images/MYSQL/use_database.png" alt="Visualisation des DATABASES MYSQL" class="image" />
           </a>
         </td>
       </tr>
@@ -111,7 +111,7 @@
         </td>
         <td>
           <a href="./images/MYSQL/create_table.png" target="_blank">
-            <img src="./images/MYSQL/create_table.png" alt="Création des tables dans MYSQL" />
+            <img src="./images/MYSQL/create_table.png" alt="Création des tables dans MYSQL" class="image" />
           </a>
         </td>
       </tr>
@@ -121,7 +121,7 @@
         <td>Permet de voir toutes les tables créées précédemment, ici "aliment" et "utilisateur"</td>
         <td>
           <a href="./images/MYSQL/show_tables.png" target="_blank">
-            <img src="./images/MYSQL/show_tables.png" alt="Visualisation des tables dans MYSQL" />
+            <img src="./images/MYSQL/show_tables.png" alt="Visualisation des tables dans MYSQL" class="image" />
           </a>
         </td>
       </tr>
@@ -131,22 +131,49 @@
         <td>
           Permet d'insérer des utilisateurs dans notre base de données, ici la table utilisateur par exemple. Donc on précise le nom de la table, ensuite entre parenthèse la liste des colonnes que
           l'on va ajouter, ainsi que leur ordre, on ajoute le mot clé VALUES qui indique qu'on va ensuite déclarer les valeurs que l'on souhaite ajouter et on écrit la liste des valeurs de l'objet
-          qu'on souhaite ajouter, dans <strong>le même ordre</strong> que les colonnes. On fait attention a bien mettre :
+          qu'on souhaite ajouter, dans <strong>le même ordre</strong> que les colonnes.
+          <p>On fait attention a bien mettre :</p>
+          <br />
           <ul>
-            <li>les Backtiks(``) pour les noms des tables/colonnes</li>
-            <li>les Guillemets('') pour les valeurs de type <strong>TEXT</strong> ou <strong>VARCHAR</strong></li>
-            <li>et pas de Guillemets/Backticks pour les valeurs de type <strong>BOOLEAN</strong>, <strong>INTEGER</strong> et <strong>FLOAT</strong></li>
+            <li>les Backtiks(``) pour les noms des tables/colonnes ;</li>
+            <li>les Guillemets('') pour les valeurs de type <strong>TEXT</strong> ou <strong>VARCHAR</strong>;</li>
+            <li>et pas de Guillemets/Backticks pour les valeurs de type <strong>BOOLEAN</strong>, <strong>INTEGER</strong> et <strong>FLOAT</strong>.</li>
           </ul>
         </td>
         <td>
           <a href="./images/MYSQL/insert_into.png" target="_blank">
-            <img src="./images/MYSQL/insert_into.png" alt="Insérer uns élément dans la table de MYSQL" />
+            <img src="./images/MYSQL/insert_into.png" alt="Insérer uns élément dans la table de MYSQL" class="image" />
           </a>
           <br />
           <p>On insert ici plusieurs éléménts dans la table aliment en les séparant par une virgule. On peut faire la même chose bien sûr pour les utilisateurs.</p>
           <br />
           <a href="./images/MYSQL/insert_into2.png" target="_blank">
-            <img src="./images/MYSQL/insert_into2.png" alt="Insérer des éléments dans la table de MYSQL" />
+            <img src="./images/MYSQL/insert_into2.png" alt="Insérer des éléments dans la table de MYSQL" class="image" />
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>SELECT * FROM "nom de la table"</td>
+        <td>
+          <p>Permet de visualiser tous les éléments d'une table :</p>
+          <br />
+          <ul>
+            <li><strong>SELECT</strong> indique à MySQL que l'on souhaite récupérer de la donnée ;</li>
+            <li><strong>*</strong> indique que l’on souhaite récupérer toutes les colonnes (ou champs) présents dans cette table (ici : id, nom, prenom et email) ;</li>
+            <li><strong>FROM</strong> "table" permet à MySQL de comprendre depuis quelle table nous souhaitons récupérer de la donnée.</li>
+          </ul>
+        </td>
+        <td>
+          <p>SELECT FROM * utilisateur</p>
+          <a href="./images/MYSQL/select_from_utilisateur.png" target="_blank">
+            <img src="./images/MYSQL/select_from_utilisateur.png" alt="Visualise tous les éléments d'une table MYSQL" class="image" />
+          </a>
+          <div class="border"></div>
+
+          <p>SELECT FROM * aliment</p>
+          <a href="./images/MYSQL/select_from_aliment.png" target="_blank">
+            <img src="./images/MYSQL/select_from_aliment.png" alt="Visualise tous les éléments d'une table MYSQL" class="image" />
           </a>
         </td>
       </tr>

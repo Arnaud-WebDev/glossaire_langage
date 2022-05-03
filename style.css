@@ -1,9 +1,9 @@
 /* CORPS DE LA PAGE */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap");
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 body {
@@ -34,7 +34,7 @@ code {
   color: blue;
 }
 
-.yellow{
+.yellow {
   color: rgb(131, 131, 28);
 }
 /* FIN DU CORPS DE LA PAGE */
@@ -90,7 +90,7 @@ nav ul li {
 }
 
 nav ul::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -134,7 +134,7 @@ nav > ul li:hover .sous {
   background-color: RGBa(200, 200, 200, 0.1);
 }
 .deroulant > a::after {
-  content: ' ▼';
+  content: " ▼";
   font-size: 12px;
 }
 
@@ -190,6 +190,11 @@ td a {
 
 .javascript:hover {
   border: 2px solid black;
+}
+
+.border {
+  border-bottom: 2px solid black;
+  margin: 10px;
 }
 
 @media (max-width: 445px) {
