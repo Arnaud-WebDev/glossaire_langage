@@ -125,6 +125,31 @@
           </a>
         </td>
       </tr>
+
+      <tr>
+        <td>INSERT INTO "nom de la table" (`nom`, `prenom` `email`) ......</td>
+        <td>
+          Permet d'insérer des utilisateurs dans notre base de données, ici la table utilisateur par exemple. Donc on précise le nom de la table, ensuite entre parenthèse la liste des colonnes que
+          l'on va ajouter, ainsi que leur ordre, on ajoute le mot clé VALUES qui indique qu'on va ensuite déclarer les valeurs que l'on souhaite ajouter et on écrit la liste des valeurs de l'objet
+          qu'on souhaite ajouter, dans <strong>le même ordre</strong> que les colonnes. On fait attention a bien mettre :
+          <ul>
+            <li>les Backtiks(``) pour les noms des tables/colonnes</li>
+            <li>les Guillemets('') pour les valeurs de type <strong>TEXT</strong> ou <strong>VARCHAR</strong></li>
+            <li>et pas de Guillemets/Backticks pour les valeurs de type <strong>BOOLEAN</strong>, <strong>INTEGER</strong> et <strong>FLOAT</strong></li>
+          </ul>
+        </td>
+        <td>
+          <a href="./images/MYSQL/insert_into.png" target="_blank">
+            <img src="./images/MYSQL/insert_into.png" alt="Insérer uns élément dans la table de MYSQL" />
+          </a>
+          <br />
+          <p>On insert ici plusieurs éléménts dans la table aliment en les séparant par une virgule. On peut faire la même chose bien sûr pour les utilisateurs.</p>
+          <br />
+          <a href="./images/MYSQL/insert_into2.png" target="_blank">
+            <img src="./images/MYSQL/insert_into2.png" alt="Insérer des éléments dans la table de MYSQL" />
+          </a>
+        </td>
+      </tr>
     </table>
   </body>
 </html>
