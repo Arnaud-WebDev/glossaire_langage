@@ -136,7 +136,7 @@
           <br />
           <ul>
             <li>les Backtiks(``) pour les noms des tables/colonnes ;</li>
-            <li>les Guillemets('') pour les valeurs de type <strong>TEXT</strong> ou <strong>VARCHAR</strong>;</li>
+            <li>les Guillemets('') pour les valeurs de type <strong>TEXT</strong> ou <strong>VARCHAR</strong> ;</li>
             <li>et pas de Guillemets/Backticks pour les valeurs de type <strong>BOOLEAN</strong>, <strong>INTEGER</strong> et <strong>FLOAT</strong>.</li>
           </ul>
         </td>
@@ -163,19 +163,34 @@
             <li><strong>*</strong> indique que l’on souhaite récupérer toutes les colonnes (ou champs) présents dans cette table (ici : id, nom, prenom et email) ;</li>
             <li><strong>FROM</strong> "table" permet à MySQL de comprendre depuis quelle table nous souhaitons récupérer de la donnée.</li>
           </ul>
+          <br />
         </td>
         <td>
           <p>SELECT FROM * utilisateur</p>
           <a href="./images/MYSQL/select_from_utilisateur.png" target="_blank">
             <img src="./images/MYSQL/select_from_utilisateur.png" alt="Visualise tous les éléments d'une table MYSQL" class="image" />
           </a>
+
           <div class="border"></div>
 
           <p>SELECT FROM * aliment</p>
           <a href="./images/MYSQL/select_from_aliment.png" target="_blank">
             <img src="./images/MYSQL/select_from_aliment.png" alt="Visualise tous les éléments d'une table MYSQL" class="image" />
           </a>
+
+          <div class="border"></div>
+
+          <p>Si on ne veut pas récupérer toutes les colonnes alors on remplace <strong>*</strong> par les colonnes que l'on veut :</p>
+          <a href="./images/MYSQL/select_from.png" target="_blank">
+            <img src="./images/MYSQL/select_from.png" alt="Visualise les éléments selectionnés d'une table MYSQL" class="image" />
+          </a>
         </td>
+      </tr>
+
+      <tr>
+        <td>UPDATE</td>
+        <td></td>
+        <td></td>
       </tr>
     </table>
   </body>
